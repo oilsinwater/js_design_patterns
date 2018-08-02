@@ -1,7 +1,6 @@
 {
   "name": "js_design_patterns",
   "version": "1.0.0",
-  "description": "",
   "main": "constructor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/oilsinwater/js_design_patterns/issues"
   },
-  "homepage": "https://github.com/oilsinwater/js_design_patterns#readme"
+  "homepage": "https://github.com/oilsinwater/js_design_patterns#readme",
+  "description": ""
 }
