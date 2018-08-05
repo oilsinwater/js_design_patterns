@@ -1,6 +1,15 @@
-/** This is a structural design pattern that composes objects into tree-like structures to represent whole-part hierarchies. In this pattern, each node in the tree-like structure can be either an individual object or a composed collection of objects.
+/** This is a structural design pattern that composes objects into tree-like structures 
+ * to represent whole-part hierarchies. In this pattern, each node in the tree-like 
+ * structure can be either an individual object or a composed collection of objects.
 
-In this example, we create a base class of Component that implements the common functionalities needed and abstracts the other methods needed. The base class also has a static method that utilizes recursion to traverse a composite tree structure made with its subclasses. Then we create two subclasses extending the base class — Leaf that does not have any children and Composite that can have children and hence have methods handling adding, searching and removing child functionalitites. The two subclasses are used to create a composite structure i.e. a tree in this case.**/
+  In this example, we create a base class of Component that implements the common functionalities
+  needed and abstracts the other methods needed. The base class also has a static method that
+  utilizes recursion to traverse a composite tree structure made with its subclasses. Then we 
+  create two subclasses extending the base class — Leaf that does not have any children and 
+  Composite that can have children and hence have methods handling adding, searching and 
+  removing child functionalitites. The two subclasses are used to create a composite structure
+  i.e. a tree in this case.
+**/
 
 class Component {
   constructor(name) {

@@ -1,13 +1,13 @@
 // Singleton is a special creational design pattern where only one 
-//instance of a class can exist.It works like this — if no instance
+// instance of a class can exist.It works like this — if no instance
 // of the singleton class exists then a new instance is created and 
 // returned but if an instance already exists then the reference to
 // the existing instance is returned.
-// A perfect real - life example would be that of mongoose. It utilizes 
-// the singleton pattern. In this example, we have a Database class
-// that is a Singleton.First, we create an object mongo by using the 
-// new operator to invoke the Database class constructor.This time an
-//  object is instantiated because none already exists.The second time, 
+// A perfect real - life example would be that of MONGOOSE. It utilizes 
+// the singleton pattern. In the example below, there is a Database class
+// that is a Singleton. First, we create an object MONGO by using the 
+// new operator to invoke the Database class constructor. This time an
+// object is instantiated because none already exists.The second time, 
 // when we create the mysql object, no new object is instantiated instead 
 // the the reference to the object that was instantiated earlier i.e.mongo
 // object is returned.
